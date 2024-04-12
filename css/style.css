@@ -1,0 +1,121 @@
+body {
+   background-color: #e0e0e0;
+	color: #101010;
+   min-height: 100%;
+}
+
+header {
+   background-color: #303030;
+   padding: 10px;
+   text-align: center;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   color: #e0e0e0;
+}
+
+.headerMargin {
+   width: 100%;
+   height: 52px;
+}
+
+h1 {
+   font-size: 2em;
+}
+
+.side-bar {
+   display: inline-block;
+   vertical-align: top;
+   padding: 60px 5px;
+   margin: 0px;
+   height: 100vh;
+   width: 260px;
+   background-color: #004080;
+   color: #e0e0e0;
+}
+
+h2 {
+   font-size: 1.5em;
+}
+
+input, select, button {
+   background-color: #606060;
+	color: #ffffff;
+}
+
+input {
+   margin: 5px;
+}
+
+button:hover {
+   background-color: #e0e0e0;
+	color: #101010;
+}
+
+ul {
+   list-style: circle;
+   margin: 5px 20px;
+}
+
+li:hover {
+   text-decoration: underline;
+}
+
+.weatherDisplay {
+   display: inline-block;
+   width: 660px;
+   min-height: 200px;
+   margin: 15px 10px;
+   border: 5px solid #ff0000;
+   background-color: #909090;
+   vertical-align: top;
+}
+
+h3 {
+   font-size: 2em;
+}
+
+.weatherDisplay p {
+   margin: 15px 5px;
+}
+
+.forecastDay {
+   display: inline-block;
+   min-height: 130px;
+   width: 130px;
+   margin: 2px;
+   padding: 10px;
+   background-color: #909090;
+   vertical-align: top;
+}
+
+.weatherForecast {
+   display: inline-block;
+   margin: 60px 0px;
+}
+
+img {
+   vertical-align: top;
+   height: 1.5em;
+   margin: 0px;
+}
+
+@media (prefers-color-scheme: dark) {
+   body {
+      background-color: #101010;
+	   color: #e0e0e0;
+   }
+   .weatherDisplay {
+      background-color: #303030;
+   }
+   .forecastDay {
+      background-color: #303030;
+   }
+}
+
+@media (max-width: 970px) {
+   .side-bar {
+      height: 100%;
+      width: 100%;
+   }
+}
